@@ -17,15 +17,26 @@ Perfect for D&D, Pathfinder, and any tabletop RPG that uses standard dice notati
 
 ## 🚀 Quick Start
 
-### Installation
+### Easy Setup (Remote MCP)
 
-The easiest way to use d20-mcp with Claude Desktop:
+The quickest way to use d20-mcp - no installation needed!
+
+1. Open Claude Desktop
+2. Go to **Settings** → **Connectors**
+3. Click **Add Custom Connector**
+4. Enter the URL: `https://d20-mcp.fastmcp.app/mcp`
+
+> **Note**: Remote MCP support is currently in beta and available for Claude Pro, Max, Team, and Enterprise users.
+
+### Local Installation (Alternative)
+
+For local installation with uvx:
 
 ```bash
 uvx --from git+https://github.com/saidsurucu/d20-mcp d20-mcp
 ```
 
-### Claude Desktop Configuration
+### Claude Desktop Configuration (Local)
 
 Add this to your `claude_desktop_config.json`:
 

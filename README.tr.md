@@ -17,15 +17,26 @@ D&D, Pathfinder ve standart zar notasyonu kullanan tüm masa üstü RPG'ler içi
 
 ## 🚀 Hızlı Başlangıç
 
-### Kurulum
+### Kolay Kurulum (Remote MCP)
 
-Claude Desktop ile d20-mcp kullanmanın en kolay yolu:
+d20-mcp'yi kullanmanın en hızlı yolu - kurulum gerektirmez!
+
+1. Claude Desktop'ı açın
+2. **Settings** → **Connectors** bölümüne gidin
+3. **Add Custom Connector** tıklayın
+4. URL'yi girin: `https://d20-mcp.fastmcp.app/mcp`
+
+> **Not**: Remote MCP desteği şu anda beta aşamasında ve Claude Pro, Max, Team ve Enterprise kullanıcıları için mevcut.
+
+### Yerel Kurulum (Alternatif)
+
+uvx ile yerel kurulum için:
 
 ```bash
 uvx --from git+https://github.com/saidsurucu/d20-mcp d20-mcp
 ```
 
-### Claude Desktop Yapılandırması
+### Claude Desktop Yapılandırması (Yerel)
 
 `claude_desktop_config.json` dosyanıza bunu ekleyin:
 
