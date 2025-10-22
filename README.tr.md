@@ -49,6 +49,10 @@ uvx --from git+https://github.com/saidsurucu/d20-mcp d20-mcp
 
 Claude Desktop'ı tamamen yeniden başlatın (Çıkış yapıp tekrar açın), sonra 🔨 çekiç ikonunu arayın!
 
+## 📸 Ekran Görüntüsü
+
+![d20-mcp çalışırken](example.png)
+
 ## 🎮 Kullanım Örnekleri
 
 Kurulduktan sonra, Claude ile şu komutları deneyin:

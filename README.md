@@ -49,6 +49,10 @@ Add this to your `claude_desktop_config.json`:
 
 Restart Claude Desktop completely (Quit and reopen), then look for the 🔨 hammer icon!
 
+## 📸 Screenshot
+
+![d20-mcp in action](example.png)
+
 ## 🎮 Usage Examples
 
 Once installed, try these prompts with Claude:
